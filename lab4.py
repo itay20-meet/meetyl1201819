@@ -25,6 +25,6 @@ class person():
 		self.favorite_breakfast = favorite_breakfast
 	def eat_breakfast(self, favorite_breakfast):
 		print(self.name + "is eating" + self.favorite_breakfast )	
-itay = person("Itay","15", "171", "Jerusalem", "male")
-itay.eat_breakfast("eggs")
+itay = person("Itay","15", "171", "Jerusalem", "male", "eggs")
+itay.eat_breakfast()
 
