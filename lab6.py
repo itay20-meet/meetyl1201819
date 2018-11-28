@@ -3,9 +3,8 @@ import turtle
 import random
 
 colors = ["red", "blue", "yellow"]
-
 class Square(Turtle):
-	def __init__(self, size, shape = turtle.shape( "square") ):
+	def __init__(self, size, shape = turtle.shape("Square") ):
 		
 		self.size = size
 
@@ -17,5 +16,4 @@ class Square(Turtle):
 c = Square(15)
 c.random_color()
 turtle.mainloop()
-
 
